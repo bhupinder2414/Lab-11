@@ -1,13 +1,13 @@
-# Accordion Component
+### Accordion Component
 
 This is a simple accordion component built with HTML, CSS, and JavaScript. It allows users to toggle between sections to view more content, and it's designed with accessibility in mind.
 
-## Features
+### Features
 - Toggle content visibility by clicking or using the keyboard.
 - Accessibility features include proper ARIA attributes for screen readers.
 - Keyboard-friendly interactions using `Enter` or `Space` keys.
 
-## Installation
+### Installation
 
 1. Clone the repository:
    
@@ -21,7 +21,7 @@ This is a simple accordion component built with HTML, CSS, and JavaScript. It al
   ```
 3. Open index.html in your browser to view the accordion in action.
 
-**Usage**
+### Usage
 
 To add the accordion to your web page:
 
@@ -37,8 +37,17 @@ Section Title</button>
   <p>Content goes here...</p>
 </div>
 ```
+### Answer questions
 
-**Keyboard Accessibility**
+**1. What is the keyboard interaction missing?**
+
+**Answer:** Missing keyboard interaction: The ability to toggle the accordion using Enter or Space keys was initially missing
+
+**2. What is the ARIA missing?**
+
+**Answer:** Missing ARIA attributes: The aria-expanded, aria-controls, and role="button" attributes were missing, along with proper association of the content using aria-labelledby.
+
+### Keyboard Accessibility
 
 This accordion supports keyboard interactions:
 
@@ -48,7 +57,7 @@ This accordion supports keyboard interactions:
 
 The state of each accordion section (open/closed) is announced by screen readers, based on the aria-expanded attribute.
 
-**Accessibility Features**
+### Accessibility Features
 
 - ARIA roles and attributes: Each accordion button is assigned the role="button" and aria-expanded attributes. The content of each section is associated with its button via the aria-controls attribute, improving screen reader usability.
 - Keyboard navigation: Accordion buttons can be activated using the Enter or Space keys, ensuring that users with motor disabilities can interact with the accordion without needing a mouse.
