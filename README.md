@@ -5,7 +5,7 @@ This is a simple accordion component built with HTML, CSS, and JavaScript. It al
 ### Features
 - Toggle content visibility by clicking or using the keyboard.
 - Accessibility features include proper ARIA attributes for screen readers.
-- Keyboard-friendly interactions using `Tab` `Enter` or `Space` keys.
+- Keyboard-friendly interactions using `Tab`, `Enter` or `Space` keys.
 
 ### Installation
 
