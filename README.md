@@ -5,7 +5,7 @@ This is a simple accordion component built with HTML, CSS, and JavaScript. It al
 ### Features
 - Toggle content visibility by clicking or using the keyboard.
 - Accessibility features include proper ARIA attributes for screen readers.
-- Keyboard-friendly interactions using `Enter` or `Space` keys.
+- Keyboard-friendly interactions using `Tab` `Enter` or `Space` keys.
 
 ### Installation
 
@@ -41,7 +41,7 @@ Section Title</button>
 
 **1. What is the keyboard interaction missing?**
 
-**Answer:** Missing keyboard interaction: The ability to toggle the accordion using Enter or Space keys was initially missing
+**Answer:** Missing keyboard interaction: The ability to toggle the accordion using Tab, Enter or Space keys was initially missing in the code.
 
 **2. What is the ARIA missing?**
 
