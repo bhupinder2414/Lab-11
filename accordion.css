@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  button.accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:focus {
+    outline: 2px solid #4CAF50;
+    outline-offset: 2px;
+  }
+  
+  button.accordion:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button.accordion[aria-expanded="true"] {
+    background-color: #ddd;
+  }
+  
+  button.accordion i {
+    float: right;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+  .accordion-content[aria-hidden="false"] {
+    max-height: 500px; /* Adjust as needed */
+  }
+  
